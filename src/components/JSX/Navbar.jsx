@@ -3,8 +3,8 @@ import { Link as ScrollLink } from "react-scroll";
 import { Link as RouterLink } from "react-router-dom";
 
 function Navbar() {
-  const navItems = ["Home", "Features", "About-Us", "FAQ", "Fix Health"];
-  const Path = ["home", "features", "about-us", "faq", "login-signup"];
+  const navItems = ["Home", "Features", "FAQ", "Fix Health"];
+  const Path = ["home", "features","faq", "login-signup"];
 
   return (
     <div className="navbar gap-[25vw] tracking-tighter w-full flex flex-wrap justify-between sm:justify-around items-center py-6 sm:py-8 px-4 sm:px-10 sticky top-0 z-50">
@@ -17,7 +17,7 @@ function Navbar() {
 
       {/* Navigation Links */}
       <div className="links montserrat flex flex-wrap gap-4 sm:gap-10 items-center justify-center text-green-800 font-medium">
-        {navItems.map((item, index) => (index === 4 ? (
+        {navItems.map((item, index) => (index === 3 ? (
           <RouterLink
             key={index}
             to="/login-signup"

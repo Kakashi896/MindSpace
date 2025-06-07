@@ -50,7 +50,7 @@ function LandingPage() {
 
       <ChallengesSection />
       <Features/>
-      <AboutUs/>
+      {/* <AboutUs/> */}
       <Login />
       <Footer /> 
     </>
