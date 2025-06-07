@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Bebas+Neue&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Special+Gothic+Condensed+One&family=Teko:wght@300..700&family=Voltaire&family=Wix+Madefor+Display:wght@400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Teko:wght@300..700&family=Voltaire&family=Wix+Madefor+Display:wght@400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Bebas+Neue&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Rubik+Distressed&family=Special+Gothic+Condensed+One&family=Teko:wght@300..700&family=Voltaire&family=Wix+Madefor+Display:wght@400..800&display=swap');
+@import "tailwindcss";
+
+
+body::-webkit-scrollbar {
+  display: block;
+  width: 8px;
+  background-color: #f7f7f7;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #95C11E;
+  border-radius: 80px;
+}
+body{
+  background-color: #f7f7f7;
+}
+::selection{
+    color: rgb(81, 228, 32);
+}
+.navbar {
+    position: relative; 
+    z-index: 1; 
+}
+.landing {
+    cursor: default !important;
+    position: relative; 
+    z-index: 1; 
+}
+.landing h1{
+    font-family: "Montserrat", sans-serif;  
+    font-weight: 600
+}
+.opproach{
+    font-family: "Montserrat", sans-serif;
+}
+.features{
+    font-family: "Montserrat", sans-serif;
+}
+.montserrat {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600; /* Change this based on the style you want */
+  font-style: normal;
+  font-optical-sizing: auto;
+}
+.rubik-distressed{
+  font-family: 'Rubik Distressed';
+  font-weight: 500;
+}
